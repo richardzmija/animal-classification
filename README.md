@@ -6,7 +6,7 @@ tools like Gradcam to assess interpretability of the model to ensure
 that it uses meaningful features for classification. For more
 information consult the [documentation for the project](
   https://docs.google.com/document/d/110-OR2SHXxi5D2EzfiCnm_xtTaWDaeKalWYvSjNFo04/edit?usp=sharing
-)
+).
 
 ### To run the app: 
   - Clone repository <br>
