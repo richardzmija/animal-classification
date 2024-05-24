@@ -1,6 +1,6 @@
 # Animal-Classification
 
-This project aims to use CNNs to create a classificator for four types
+This project aims to use CNNs to create a classifier for four types
 of animals: dogs, cats, horses and monkeys. We are also going to use
 tools like Gradcam to assess interpretability of the model to ensure
 that it uses meaningful features for classification. For more
