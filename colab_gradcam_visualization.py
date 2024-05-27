@@ -6,6 +6,8 @@ from tensorflow.keras.preprocessing import image
 from tf_keras_vis.gradcam import Gradcam
 from tf_keras_vis.utils.scores import CategoricalScore
 
+# tf_keras_vis must be installed in colab first using pip
+
 # Load model
 main_path = "/content/drive/MyDrive/data"
 model_path = os.path.join(main_path, "models/animal-classifier/my_model.keras")
