@@ -29,7 +29,7 @@ validate_path = os.path.join(folder_path, "validate")
 test_path = os.path.join(folder_path, "test")
 
 # Change to smaller batch size if the GPU has less than 12 GB VRAM
-batch_size = 512
+batch_size = 256
 
 # Define a rule for data augmentation
 data_augmentation = tf.keras.Sequential([
@@ -37,7 +37,9 @@ data_augmentation = tf.keras.Sequential([
     layers.experimental.preprocessing.RandomFlip("horizontal"),
     layers.experimental.preprocessing.RandomRotation(0.1),
     layers.experimental.preprocessing.RandomZoom(0.1),
-    layers.experimental.preprocessing.RandomContrast(0.1)    
+    layers.experimental.preprocessing.RandomContrast(0.1),
+    layers.experimental.preprocessing.RandomTranslation(height_factor=0.1,
+                                                        width_factor=0.1)
 ])
 
 train_dataset = image_dataset_from_directory(
