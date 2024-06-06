@@ -10,7 +10,7 @@ information consult the [documentation for the project](
 
 ### To run the app: 
   - Clone repository <br>
-  - Download pretrained model [Here](https://www.mediafire.com/file/7yythn8i971jff4/trained_model.h5/file 'Download model') <br>
+  - Download pretrained model [Here](https://drive.google.com/file/d/1xiJWzItWy5l7IAXj-0A-z2DvY0ClWRxN/view?usp=drive_link 'Download model') <br>
   - Place the model in top-level directory of the clone repository <br>
   - Run the app by using ```python gui.py``` <br>
 
